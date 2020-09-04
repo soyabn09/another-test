@@ -1,0 +1,28 @@
+{
+	"name": "ptero-api-bot",
+	"version": "1.0.0",
+	"description": "A bot that connects to Pterodactyl via the API",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm install && node index.js"
+	},
+	"dependencies": {
+		"discord.js": "^12.x.x",
+		"enmap": "^5.x.x",
+		"dateformat": "^3.x.x",
+		"nodeactyl": "2.x.x",
+		"log4js": "6.x.x"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"license": "UNLICENSED",
+	"contributors": [
+		"Soyab Nandhla (http://soyabnandhla.me/)"
+	],
+	"keywords": [
+		"pterodactyl",
+		"api",
+		"discord"
+	]
+}
